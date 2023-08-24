@@ -23,3 +23,7 @@ git rm      eliminar archivo en stage
 git restore recuperar archivo de stage
 mv * *      cambiar de nombre
 git mv      cambiar nombre en stage
+   
+
+
+
