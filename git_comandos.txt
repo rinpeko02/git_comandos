@@ -1,38 +1,42 @@
 //configuracion
-git config -h
+git config -h				para ver las configuraciones
 
-computador	stage	commit	server
-pc 
+//explicacion
+computador	stage		commit			server
+pc 			borrador	comprometer		subir a la nube
 
 //comandos
-clear
-ls		listar carpetas / con -a no visible
-pwd		ver donde estoy
-cd 		ingresar a directorios
-cd .. 		salir de directorio
-mkdir 		para crear una carpeta
-code . 		para abrir la carpeta desde el id
-git status	para ver los stados actuales del archivo
+clear			limpiar la consola
+ls				listar carpetas
+ls -a 			listar carpetas incluidos los no visibles
+pwd				ver donde estoy
+cd 				ingresar a directorios
+cd .. 			salir de directorio
+mkdir 			para crear una carpeta
+code . 			para abrir la carpeta desde el id
+git status		para ver los stados actuales del archivo
 git status -s 	solo muestra archivos
-git add		para agregar un archivo o archivos *."extension"
-		. para todos 
-git init	inicializar el repositorio 
-git commit -m "nombre del commit"
-git commit 	se ingresa al id pero el nombre es manual
+git add	****	para agregar un archivo o archivos *."extension"
+git add *.txt	para agregar todos los archivos de la extension txt
+git add .		para agregar todos los archivos
+git init		inicializar el repositorio 
+
+git commit -m "nombre del commit"				para comprometer y ponerle un nombre
+git commit 										para comprometer y ponerle un nombre en el id
 rm          eliminar archivo
 git rm      eliminar archivo en stage 
 git restore recuperar archivo de stage
-mv * *      cambiar de nombre
+mv **       cambiar de nombre
 git mv      cambiar nombre en stage
-
-.gitignore	nombre de archivo para lo que queramos que ignore git 
-git diff	comando para mostrar los cambios
-git diff --staged 	cmando para mostrar cambios en staged 
-	q para salir 
-git log --online	para mostrar historial de commits
-git branch	para indicar en ue rama estamos
-git checkout -b ramaB
-git merge ramaB		para traernos las diferencias de ramaB  a la rama principal
+cat **		mostrar el contenido
+.gitignore					nombre de archivo para lo que queramos que ignore git, en el demos poner las exclusiones
+git diff					comando para mostrar los cambios
+git diff --staged 			cmando para mostrar cambios en staged 
+	q 						para salir 
+git log --online			para mostrar historial de commits
+git branch					para indicar en que rama estamos
+git checkout -b ramaB		para crear una rama llamada ramaB
+git merge ramaB				para traernos las diferencias de ramaB  a la rama principal
 git remote add origin https://github.com/rinpeko02/git_comandos.git
 	git remote 	para indicar servidor remoto
 	add origin 	donde se subira
