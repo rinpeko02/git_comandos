@@ -1,0 +1,20 @@
+//configuracion
+git config -h
+
+computador	stage	commit	server
+pc 
+
+//comandos
+ls		listar carpetas / con -a no visible
+pwd		ver donde estoy
+cd 		ingresar a directorios
+cd .. 		salir de directorio
+mkdir 		para crear una carpeta
+code . 		para abrir la carpeta desde el id
+git status	para ver los stados actuales del archivo
+git add		para agregar un archivo o archivos *."extension"
+		. para todos 
+git init	inicializar el repositorio 
+
+git commit -m "nombre del commit"
+git commit 	se ingresa al id pero el nombre es manual
