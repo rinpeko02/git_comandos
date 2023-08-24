@@ -31,5 +31,17 @@ git diff --staged 	cmando para mostrar cambios en staged
 	q para salir 
 git log --online	para mostrar historial de commits
 git branch	para indicar en ue rama estamos
+<<<<<<< HEAD
 git checkout -b ramaB	para crear la ramaB
 git checkout ramaB 		para cambiar a la ramaB
+=======
+git checkout -b ramaB
+git merge ramaB		para traernos las diferencias de ramaB  a la rama principal
+git remote add origin https://github.com/rinpeko02/git_comandos.git
+	git remote 	para indicar servidor remoto
+	add origin 	donde se subira
+git push -u origin main
+	git push		para subir los cambias en la rama 
+	-u				crear la rama
+	origin main		nombre de la rama		
+>>>>>>> ramaB
