@@ -33,7 +33,7 @@ cat **		mostrar el contenido
 git diff					comando para mostrar los cambios
 git diff --staged 			cmando para mostrar cambios en staged 
 	q 						para salir 
-git log --online			para mostrar historial de commits
+git log --oneline			para mostrar historial de commits
 git branch					para indicar en que rama estamos
 git checkout -b ramaB		para crear una rama llamada ramaB
 git merge ramaB				para traernos las diferencias de ramaB  a la rama principal
