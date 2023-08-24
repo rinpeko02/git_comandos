@@ -13,6 +13,7 @@ cd .. 		salir de directorio
 mkdir 		para crear una carpeta
 code . 		para abrir la carpeta desde el id
 git status	para ver los stados actuales del archivo
+git status -s 	solo muestra archivos
 git add		para agregar un archivo o archivos *."extension"
 		. para todos 
 git init	inicializar el repositorio 
@@ -23,3 +24,11 @@ git rm      eliminar archivo en stage
 git restore recuperar archivo de stage
 mv * *      cambiar de nombre
 git mv      cambiar nombre en stage
+
+.gitignore	nombre de archivo para lo que queramos que ignore git 
+git diff	comando para mostrar los cambios
+git diff --staged 	cmando para mostrar cambios en staged 
+	q para salir 
+git log --online	para mostrar historial de commits
+git branch	para indicar en ue rama estamos
+git checkout -b ramaB
